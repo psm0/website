@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="maincss.css">
+  <style>
+
+  strong{
+    padding-top: 0px;
+    font-size: 20px;
+  }
+
+  body{
+  width: 1500px;
+  height: 2000px;
+  }
+  sidebar{
+       display: inline-block;
+        background: linear-gradient(#31b7d7 0%, #edac7d 100%);
+      position: absolute;
+    	top: 20%;
+    	left : 68%;
+    	width : 300px;
+      height: 200px;
+    	padding : 5px;
+    	color : slategray;
+   }
+
+   .slogan{
+     margin-top: 20px;
+     margin-left: 455px;
+   }
+
+   .weather{
+     margin-left: -8%;
+     margin-top: -5%;
+     position: absolute;
+     overflow: hidden;
+   }
+   .weather:hover{
+     width:800px;
+     height:400px;
+   }
+   .dokdo{
+     display: inline-block;
+     margin-top: -5%;
+   }
+   .text{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top:-14.5%;
+    margin-left: 25%;
+  }
+  .go{
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  .now{
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+    margin-left:-4.1%
+  }
+  .hot{
+    font-size: 20px;
+    font-weight:bold;
+    color: yellow;
+    margin-left:14%;
+    margin-top:-8%
+  }
+    </style>
+  </head>
+  <body>
+
+  <header>
+    <a href=main.html> <img class="logo" src="image/logo1.png" width="170" height="130"> </a>
+     <div id="menubar">
+       <ul>
+         <li class="topmenu"> <a class="menulink"> 독도에 대한 정부 입장</a>
+           <ul class="sub">
+             <li> <a  class="sublink" href="gov.html">정부 기본입장</a> </li>
+             <li> <a  class="sublink" href="reason.html">우리 영토인 근거 </a></li>
+           </ul>
+        </li>
+        <li> &nbsp;&nbsp;&nbsp; </li>
+        <li class="topmenu"><a class="menulink" > 독도 일반 현황 </a></li>
+        <li> &nbsp;&nbsp;&nbsp; </li>
+        <li class="topmenu"><a class="menulink" > 자료실</a> </li>
+
+      </ul>
+    <div class="login">ID <input type="text" size="5" value="">
+                       PW <input type="text" size="5" value="">
+                       <input type="submit" value="로그인">
+   <img  class="slogan" src="image/slogan.png" width="300px" height="100px">
+     <iframe class="weather" src="http://www.weather.go.kr/weather/main.jsp" width="200" height="50"> </iframe>
+      <div class="hot">>독도의 날씨는?</div>
+     <img class="go" src="image/photo_1.png" width="150px" height="100px">
+     <div class="now">자료실</div>
+ </header>
+  </div>
+<sidebar>
+    <strong style="padding-top: 0px" style="margin-right:20px">독도동영상 </strong>
+    <video src="image/dokdo hongbo.mp4" width="300" height="173"  controls>  </video>
+  </sidebar>
+<footer>
+ <img  class="dokdo" src="image/독도로고.png" width="250px" height="200px">
+ <div class="text"> 주소: 경상북도 울릉군 울릉읍 독도리 산 1-96 전화: 054-790-6420 팩스번호: 054-272-6515<br>
+                    본 홈페이지의 모든 권리는 독도에 귀속됩니다. COPYRIGHT(C) 2018 DOKDO ALL RIGHTS RESERVED.</div>
+
+</footer>
+  </div>
+</body>
+
+</html>
